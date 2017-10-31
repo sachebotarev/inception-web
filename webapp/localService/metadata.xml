@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<edmx:Edmx xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx" Version="1.0">
+	<edmx:DataServices m:DataServiceVersion="1.0" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata">
+		<Schema Namespace="mobui.m.inspection" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+			<EntityType Name="WorkOrder">
+				<Key>
+					<PropertyRef Name="id"/>
+				</Key>
+				<Property Name="id" Type="Edm.Guid" Nullable="true"></Property>
+			</EntityType>
+			<EntityContainer Name="inspectionContainer" m:IsDefaultEntityContainer="true">
+				<EntitySet Name="WorkOrderSet" EntityType="mobui.m.inspection.WorkOrder"></EntitySet>
+			</EntityContainer>
+		</Schema>
+	</edmx:DataServices>
+</edmx:Edmx>
