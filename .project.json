@@ -42,6 +42,6 @@
   },
   "hybrid": {
     "hatVersion": "1.28.0",
-    "appNamespace": "mobui.m.inspectioninspection-web"
+    "appNamespace": "mobui.m.inspection"
   }
 }

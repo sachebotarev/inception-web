@@ -1,11 +1,11 @@
 sap.ui.define([
 	"sap/ui/core/UIComponent",
 	"sap/ui/Device",
-	"mobui/m/inspectioninspection-web/model/models"
+	"mobui/m/inspection/model/models"
 ], function(UIComponent, Device, models) {
 	"use strict";
 
-	return UIComponent.extend("mobui.m.inspectioninspection-web.Component", {
+	return UIComponent.extend("mobui.m.inspection.Component", {
 
 		metadata: {
 			manifest: "json"

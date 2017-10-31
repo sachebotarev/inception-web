@@ -1,7 +1,7 @@
 {
 	"_version": "1.7.0",
 	"sap.app": {
-		"id": "mobui.m.inspectioninspection-web",
+		"id": "mobui.m.inspection",
 		"type": "application",
 		"i18n": "i18n/i18n.properties",
 		"applicationVersion": {
@@ -39,7 +39,7 @@
 
 	"sap.ui5": {
 		"rootView": {
-			"viewName": "mobui.m.inspectioninspection-web.view.App",
+			"viewName": "mobui.m.inspection.view.App",
 			"type": "XML"
 		},
 		"dependencies": {
@@ -62,7 +62,7 @@
 			"i18n": {
 				"type": "sap.ui.model.resource.ResourceModel",
 				"settings": {
-					"bundleName": "mobui.m.inspectioninspection-web.i18n.i18n"
+					"bundleName": "mobui.m.inspection.i18n.i18n"
 				}
 			}
 		},

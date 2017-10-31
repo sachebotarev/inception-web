@@ -3,7 +3,7 @@ sap.ui.define([
 ], function(Controller) {
 	"use strict";
 
-	return Controller.extend("mobui.m.inspectioninspection-web.controller.App", {
+	return Controller.extend("mobui.m.inspection.controller.App", {
 
 	});
 });
